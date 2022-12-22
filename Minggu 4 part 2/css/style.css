@@ -1,0 +1,118 @@
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #170b2a;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.card img {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+header {
+  display: inline;
+}
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #170b2a;
+  text-align: center;
+  color: white;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+nav {
+  background-color: #1f104f;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.data_diri header {
+  text-align: center;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+th {
+  background-color: blue;
+}
+
+.tabel {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
